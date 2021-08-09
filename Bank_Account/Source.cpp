@@ -1,7 +1,7 @@
 #include"Header.h"
 #include <iostream>
 
-BankAccount::BankAccount(const std::string& client, const std::string& num, double bal)
+BankAccount::BankAccount(const std::string& client, const std::string& num, double bal)//initialize the class.
 {
     name = client;
     acctnum = num;
@@ -13,13 +13,13 @@ BankAccount::BankAccount(const std::string& client, const std::string& num, doub
     else
         balance = bal;
 }
-void BankAccount::show(void) const
+void BankAccount::show(void) const// Show the values.
 {
     std::cout << "Name:   " << name
         << "\naccount: " << acctnum
         << "\nbalance: " << balance << std::endl;
 }
-void BankAccount::deposit(double cash)
+void BankAccount::deposit(double cash)// deposit.
 {
     if (cash < 0)
         std::cout << "Number of deposit can't be negative. "
@@ -27,7 +27,7 @@ void BankAccount::deposit(double cash)
     else
         balance += cash;
 }
-void BankAccount::withdraw(double cash)
+void BankAccount::withdraw(double cash)// withdraw.
 {
     if (cash < 0)
         std::cout << "Number of withdraw can't be negative. "
