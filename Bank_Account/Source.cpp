@@ -3,8 +3,8 @@
 
 BankAccount::BankAccount(const std::string& client, const std::string& num, double bal)//initialize the class.
 {
-    name = client;
-    acctnum = num;
+    name = client;//link them with the main class.
+    acctnum = num;//same here.
     if (bal < 0)
     {
         std::cout << "Number of ballance can't be negative; balance set to 0.\n";
