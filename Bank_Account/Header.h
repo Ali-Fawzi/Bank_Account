@@ -5,7 +5,7 @@
 class BankAccount
 {
 private:
-    std::string name;
+    std::string name;//Client Name.
     std::string acctnum;
     double balance;
 public:
