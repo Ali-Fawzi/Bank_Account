@@ -13,7 +13,7 @@ public:
         const std::string& num, double bal = 0.0);
     void show(void) const;//the show function.
     void deposit(double cash);//function for the deposit opreation.
-    void withdraw(double cash);
+    void withdraw(double cash);//function for the withdraw opreation.
 };
 
 #endif // !HEADER
