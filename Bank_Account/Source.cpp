@@ -19,7 +19,7 @@ void BankAccount::show(void) const// Show the values.
         << "\naccount: " << acctnum
         << "\nbalance: " << balance << std::endl;
 }
-void BankAccount::deposit(double cash)// deposit
+void BankAccount::deposit(double cash)// deposit.
 {
     if (cash < 0)
         std::cout << "Number of deposit can't be negative. "
