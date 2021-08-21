@@ -1,7 +1,7 @@
 #include"Header.h"
 #include <iostream>
 
-BankAccount::BankAccount(const std::string& client, const std::string& num, double bal)//initialize the class
+BankAccount::BankAccount(const std::string& client, const std::string& num, double bal)//initialize the class.
 {
     name = client;//link them with the main class
     acctnum = num;//same here
