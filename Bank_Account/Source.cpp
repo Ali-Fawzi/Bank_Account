@@ -27,7 +27,7 @@ void BankAccount::deposit(double cash)// deposit.
     else
         balance += cash;
 }
-void BankAccount::withdraw(double cash)// withdraw
+void BankAccount::withdraw(double cash)// withdraw.
 {
     if (cash < 0)
         std::cout << "Number of withdraw can't be negative. "
