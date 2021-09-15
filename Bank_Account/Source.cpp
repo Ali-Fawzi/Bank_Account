@@ -13,7 +13,7 @@ BankAccount::BankAccount(const std::string& client, const std::string& num, doub
     else
         balance = bal;//link them with the main class.
 }
-void BankAccount::show(void) const// Show the values
+void BankAccount::show(void) const// Show the values.
 {
     std::cout << "Name:   " << name
         << "\naccount: " << acctnum
