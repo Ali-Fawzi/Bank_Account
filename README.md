@@ -1,7 +1,9 @@
-# Bank_Account
-Simple Bank_Account.
+# Bank Account
+Simple Bank Account.
 
-i used some cool C++ technology.
-
-
-To Run the program Go to->Bank_Account "The program is separate to three diffrent files '1.Main, 2.Source, 3.Header' ".
+* [x]  used some cool C++ technology.
+* clone the repo and try it your self
+* The program is separate to three diffrent files
+1. Main
+2. Source
+3. Header
