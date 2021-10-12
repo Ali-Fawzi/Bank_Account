@@ -6,7 +6,7 @@ class BankAccount
 {
 private:
     std::string name;//Client Name.
-    std::string acctnum;//Client Number Type string
+    std::string acctnum;//Client Number Type string.
     double balance;//Balance
 public:
     BankAccount(const std::string& client,//constructer
